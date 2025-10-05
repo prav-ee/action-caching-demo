@@ -21,7 +21,7 @@ jobs:
 
       - name: Cache uv dependencies
         uses: actions/cache@v4
-        id: cache-0f8d556 # Give the step an id to check its output
+        id: cache-uv # Give the step an id to check its output
         with:
           path: ~/.cache/uv
           key: cache-7845754
@@ -36,4 +36,3 @@ jobs:
           else
             echo "Cache miss. Dependencies were installed and cache will be saved."
           fi
-
