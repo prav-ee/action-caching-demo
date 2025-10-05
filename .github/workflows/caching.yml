@@ -21,7 +21,7 @@ jobs:
 
       - name: Cache uv dependencies
         uses: actions/cache@v4
-        id: cache-uv # Give the step an id to check its output
+        id: cache-0f8d556 # Give the step an id to check its output
         with:
           path: ~/.cache/uv
           key: cache-7845754
